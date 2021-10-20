@@ -21,8 +21,8 @@ namespace CircleLab
         {
             get 
              {
-           
-            return 2 * Math.PI * Radius; 
+
+                return Math.Round(2 * Math.PI * Radius, 2); 
 
             }
 
@@ -32,7 +32,7 @@ namespace CircleLab
         {
             get
             {
-                return Math.PI * Radius * Radius; 
+                return Math.Round(Math.PI * Radius * Radius, 2); 
             }
 
 
