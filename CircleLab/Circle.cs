@@ -34,10 +34,6 @@ namespace CircleLab
             {
                 return Math.Round(Math.PI * Radius * Radius, 2); 
             }
-
-
-
-
         }
 
         public string GetUserInput(string prompt)
